@@ -61,3 +61,22 @@ header span {
     color: #2b230d80;
     text-shadow: 2px 2px 2px #f25a29;
 }
+
+foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #555555;
+    border-top: 5px solid #f25a29;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+foot a {
+    text-decoration: none;
+    color: #fff;
+}
+    
