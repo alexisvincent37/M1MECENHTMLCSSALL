@@ -26,3 +26,38 @@ header span {
     height: 300px;
 }
     
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#about h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+#about div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 300px;
+    font-stretch: 2;
+    padding: 3px;
+    border-width: 3px;
+    background: linear-gradient(to right, #F25A29 0%, #373737 100%);
+    transition: scale 0.5s ease, box-shadow 0.2s ease;
+}
+
+#about div:hover {
+    box-shadow: 12px 12px 2px 1px #f25a2980;
+    scale: 1.1;
+    color: #2b230d80;
+    text-shadow: 2px 2px 2px #f25a29;
+}
